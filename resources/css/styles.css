@@ -402,18 +402,18 @@ header{
 /*------------------------------------*/
 
 .tickets-background{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/resources/img/airplane-03.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/airplane-03.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #navigation-tks{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/resources/img/tks.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/tks.jpg);
 
 }
 
 .tks-section{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/resources/img/tks.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/tks.jpg);
 }
 
 
