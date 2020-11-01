@@ -9,7 +9,6 @@
     /* Colores */
     --base-color:#00d2d3;
     --btn-active-color: #01a3a4;
-    --background-index: url(/resources/css/img/travel-01.jpeg)
 }
 
 /*-----------------------*/
@@ -174,10 +173,11 @@ header a{
 /*-----------------------*/
 
 header{ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/travel-02.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), var(--background-index);
+    background-attachment: fixed;
 }
 
 
@@ -261,7 +261,6 @@ header{
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #eeffee;
-    z-index: 9999;
 }
 
 .nav-persistent .main-nav{ margin-top: 18px;}
@@ -297,9 +296,10 @@ header{
 
 #navigation-sf{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/resources/img/san-francisco-02.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/san-francisco-02.png);
     background-size: cover;
     background-position: center;
+    z-index: 9999;
 }
 
 .san-francisco-box,
@@ -363,7 +363,7 @@ header{
 /*             Amsterdam              */
 /*------------------------------------*/
 #navigation-ams{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/resources/img/amsterdam-01.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/amsterdam-01.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -373,7 +373,7 @@ header{
 /*                Asia                */
 /*------------------------------------*/
 #navigation-asia{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/resources/img/asia-01.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/asia-01.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -383,7 +383,7 @@ header{
 /*                Perù                */
 /*------------------------------------*/
 #navigation-pr{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/resources/img/peru-01.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/peru-01.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
